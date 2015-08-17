@@ -1,0 +1,26 @@
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="phpunit.xsd"
+         bootstrap="Tests/bootstrap.php"
+         colors="true"
+    	 stopOnFailure="false"
+    	 backupGlobals="false"
+    	 backupStaticAttributes="false"
+    	 convertErrorsToExceptions="true"
+    	 convertNoticesToExceptions="true"
+    	 convertWarningsToExceptions="true"
+    	 processIsolation="false"
+    	 syntaxCheck="false"
+    	 cacheTokens="true"
+    	 verbose="true">
+         
+  	<testsuites>
+        <testsuite name="My Test Suite">
+            <directory>Tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory>system</directory>
+        </whitelist>
+    </filter>
+</phpunit>

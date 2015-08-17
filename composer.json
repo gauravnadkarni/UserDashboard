@@ -1,0 +1,8 @@
+{
+	"name": "User Dashboard",
+    "description": "User Dashboard app",
+    "license": "GPL",
+    "require-dev": {
+        "phpunit/phpunit": "4.7.*"
+    }
+}
